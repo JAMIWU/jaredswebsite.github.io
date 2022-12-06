@@ -1,0 +1,201 @@
+/* CSS Document for Final Project by J. Wullschleger */
+
+body{
+	background-image:url(images/texture.png);
+	background-image-min-height:100%;
+	background-attachment:fixed;
+	background-size:cover;
+	color:#e8e8e8;
+}
+
+hr{
+	border: 1px solid #5565FF;
+}
+
+p{
+	font-size:18px;
+	padding:13px;
+	font-family:trebuchet ms;
+    text-indent: 50px;}
+	
+.timepic {
+	width:30%;
+	margin-left: 40%;
+	height:30%;
+	display: none;}
+	
+figure{
+  text-align:left;
+}	
+figcaption{text-align: center;
+margin-left: 10%;
+display: none;}
+
+li, ol{list-style-type: square;
+font-size: 18px;
+font-family:trebuchet ms;}
+
+.pagebox{
+	background-image:url(images/darkbg.png);
+	width:70%;
+	margin:auto;
+}
+
+.curtain{
+	background-image:url(images/curtain.jpg);
+	width:auto;
+	margin:auto;
+}
+
+body nav{list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#202020;
+}
+
+.topnav a{display:inline-block;
+color:white;
+text-align:center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: verdana;
+}
+
+.topnav a:hover{
+	background-color: #5565FF;
+	color: #000000;
+}
+
+.topnav .active{
+	background-color: #5565FF;
+	color: #ffffff;
+}
+
+.video_container{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+iframe, .video_container object{
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer{
+	color: #7C7C7C;
+	font-style: italic;
+	text-align: center;
+	font-family: trebuchet ms;
+}
+
+h1{
+	font-family: Trebuchet MS;
+	background-color: #282828;
+	text-align: center;
+	color: #eeeeee;
+}
+
+section{
+	color: #eeeeee;
+	padding: 15px;
+	font-family: trebuchet ms;
+}
+
+.audio{
+	margin-left: 35%;
+}
+
+table{border-collapse: collapse;
+width: 80%;
+margin: auto;}
+
+td, th{border: 0.1px solid #5565FF;
+padding: 5px;
+font-family: trebuchet ms;
+font-size: 20px;
+color: #eeeeee;}
+
+@media only screen and (max-width: 1100px) {
+	#slideshow{display:none;}
+	figcaption, .timepic{font-size: 18px;
+	display: block;}
+		body{width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;}
+	.topnav{width: 100%;
+	overflow: hidden;}
+	a{width: 100%;
+	display: block;
+	text-align: center;
+	background-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #323232;}
+}
+@media only screen and (max-width: 600px) {
+	body{width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;}
+	.topnav{width: 100%;
+	overflow: hidden;}
+	a{width: 100%;
+	display: block;
+	text-align: center;
+	background-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #323232;}
+	.audio{margin-left: 5%;}
+	h1{font-size:18px;}
+	input{width: 100%}
+	td, th{font-size: 11px;}
+	footer{font-size: 9px;}
+	p{font-size: 12px;}
+	li, ol{font-size: 12px;}
+	figcaption, .timepic{font-size: 12px;
+	display: block;}
+}
+
+.photograph{
+	width: 55%;
+	margin-left: 25%;
+}
+
+#slideshow{
+	overflow: hidden;
+	height: 510px;
+	width: 728px;
+	margin: 0 auto;
+}
+
+.slide-wrapper{
+	width: 2912px;
+	-webkit-animation: slide 18s ease infinite;
+}
+
+.slide{
+	float: left;
+	height: 510px;
+	width: 728px;
+}
+
+@-webkit-keyframes slide{
+	20% {margin-left: 0px;}
+	30% {margin-left: -728px;}
+	50% {margin-left: -728px;}
+	60% {margin-left: -1456px;}
+	70% {margin-left: -1456px;}
+	80% {margin-left: -2184px;}
+	90% {margin-left: -2184px;}
+}
+
+
+

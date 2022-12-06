@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jared's Gallery</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body img class="curtain">
+<div class="pagebox">
+<nav>
+<div class="topnav">
+<a href="index.html">HOME</a>
+<a href="page2.html" class="active">GALLERY</a>
+<a href="page3.html">ABOUT ME</a>
+<a href="page4.html">CONTACT</a>
+</nav>
+<h1>&#8226; &#x26AC; &#8226; Portfolio Gallery &#8226; &#x26AC; &#8226;</h1>
+<div id="slideshow">
+<div class="slide-wrapper">
+<div class="slide"><img class="photograph" src="images/magazine.png" alt="Image for Slideshow"></div>
+<div class="slide"><img class="photograph" src="images/portrait.jpg" alt="Image for Slideshow"></div>
+<div class="slide"><img class="photograph" src="images/poster.png" alt="Image for Slideshow"></div>
+<div class="slide"><img class="photograph" src="images/bcard.png" alt="Image for Slideshow"></div>
+</div>
+</div>
+<figure>
+<script>
+var current= new Date()
+var day_night=current.getHours()
+if (day_night<=12)
+document.write("<img class='timepic' src='images/bulbon.png'>")
+else
+document.write("<img class='timepic' src='images/bulboff.png'>")
+</script>
+<figcaption>&#x26A0; <strong>WARNING:</strong> If you have a smaller device, then the slides will not appear.
+<br> Apologies for the technical difficulties. &#x2639;</figcaption>
+</figure>
+</body>
+<footer><p>This website was created by J. Wullschleger &copy; 2022</p></footer>
+<br>
+</div>
+</html>
